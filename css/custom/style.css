@@ -113,13 +113,13 @@ h6 {
 /*========================================== 2.COMMON CSS START ===========================================*/
 
 .section-padding {
-  padding-top: 80px;
+  padding-top: 80px !important;
   padding-bottom: 80px;
 }
 
 .section-1-bg {
   background-color: #323232;
-  background-image:  url("../../images/safecore/bgtestgood.svg");
+  background-image:  url("../../images/safecore/PATTERN.svg");
 }
 
 .section-2-bg {
@@ -721,7 +721,7 @@ resume-skills h4,
 
 .study-div {
   border-radius: 5px;
-}
+  }
 
 .study-header h3 {
   margin-top: 0;
