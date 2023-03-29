@@ -1,7 +1,8 @@
 <?php
 	require_once('phpmailer/class.phpmailer.php');
 	$mail = new PHPMailer();
-	if(isset($_POST['name']) && isset($_POST['lname']) && isset($_POST['email']) && isset($_POST['message']) ) {	
+	if(isset($_POST['name']) && isset($_POST['lname']) && isset($_POST['email']) && isset($_POST['message']) ) {
+		// Please enter your email and name 	
 		$to_email = 'safecore.exchange@gmail.com';
 		$to_name = 'Safecore';
 		$sender_name = $_POST['name'] . " ". $_POST['lname'];

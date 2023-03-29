@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "public",
+    "site": "safecore-7f55d",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
