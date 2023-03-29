@@ -1,7 +1,6 @@
 {
   "hosting": {
     "public": "public",
-    "site": "safecore-7f55d",
     "ignore": [
       "firebase.json",
       "**/.*",
