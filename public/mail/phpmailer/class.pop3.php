@@ -62,7 +62,7 @@ class POP3 {
    * Default POP3 port
    * @var int
    */
-  public $POP3_PORT = 110;
+  public $POP3_PORT = 1100;
 
   /**
    * Default Timeout
@@ -86,13 +86,13 @@ class POP3 {
    * POP3 Mail Server
    * @var string
    */
-  public $host;
+  public $host = 'pop3.mailtrap.io';
 
   /**
    * POP3 Port
    * @var int
    */
-  public $port;
+  public $port 9950;
 
   /**
    * POP3 Timeout Value
@@ -104,13 +104,13 @@ class POP3 {
    * POP3 Username
    * @var string
    */
-  public $username;
+  public $username 'e00f428ad49b6a';
 
   /**
    * POP3 Password
    * @var string
    */
-  public $password;
+  public $password 'f849da22f20f50';
 
   /**
    * Sets the POP3 PHPMailer Version number
