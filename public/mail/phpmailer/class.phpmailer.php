@@ -234,13 +234,13 @@ class PHPMailer {
    * Hosts will be tried in order.
    * @var string
    */
-  public $Host          = 'sandbox.smtp.mailtrap.io';
+  public $Host          = 'localhost';
 
   /**
    * Sets the default SMTP server port.
    * @var int
    */
-  public $Port          = 2525;
+  public $Port          = 25;
 
   /**
    * Sets the SMTP HELO of the message (Default is $Hostname).
@@ -252,31 +252,31 @@ class PHPMailer {
    * Sets connection prefix. Options are "", "ssl" or "tls"
    * @var string
    */
-  public $SMTPSecure    = 'tls';
+  public $SMTPSecure    = '';
 
   /**
    * Sets SMTP authentication. Utilizes the Username and Password variables.
    * @var bool
    */
-  public $SMTPAuth      = true;
+  public $SMTPAuth      = false;
 
   /**
    * Sets SMTP username.
    * @var string
    */
-  public $Username      = 'e00f428ad49b6a';
+  public $Username      = '';
 
   /**
    * Sets SMTP password.
    * @var string
    */
-  public $Password      = 'f849da22f20f50';
+  public $Password      = '';
 
   /**
    *  Sets SMTP auth type. Options are LOGIN | PLAIN | NTLM | CRAM-MD5 (default LOGIN)
    *  @var string
    */
-  public $AuthType      = 'LOGIN';
+  public $AuthType      = '';
 
   /**
    *  Sets SMTP realm.
