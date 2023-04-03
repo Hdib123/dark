@@ -91,14 +91,6 @@ h3 {
   font-size: 20px;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 600;
-  letter-spacing: 1px;
-}
 
 .text-center {
   text-align: center;
@@ -119,6 +111,7 @@ h6 {
 
 .section-1-bg {
   background-color: #292929;
+
 }
 
 .section-2-bg {
@@ -130,11 +123,11 @@ h6 {
   font-size: 30px;
   margin-top: 20px;
   margin-bottom: 18px;
-  padding-left: 25px;
+  padding-left: 0px;
 }
 
 .heading-icon img {
-  padding-bottom: 12px;
+  padding-bottom: 12px; 
 }
 
 .heading-icon {
@@ -148,10 +141,10 @@ h6 {
 /*Heading dot Pattern*/
 
 .section-title {
-  background-image: -webkit-repeating-radial-gradient(center center, rgba(255,255,255,.4), rgba(255,255,255,.4) 1px, transparent 1px, transparent 100%);
-  background-image: -moz-repeating-radial-gradient(center center, rgba(255,255,255,.4), rgba(255,255,255,.4) 1px, transparent 1px, transparent 100%);
-  background-image: -ms-repeating-radial-gradient(center center, rgba(255,255,255,.4), rgba(255,255,255,.4) 1px, transparent 1px, transparent 100%);
-  background-image: repeating-radial-gradient(center center, rgba(255,255,255,.4), rgba(255,255,255,.4) 1px, transparent 1px, transparent 100%);
+  background-image: -webkit-repeating-radial-gradient(center center, #323232, #323232);
+  background-image: -moz-repeating-radial-gradient(center center, #292929, #323232);
+  background-image: -ms-repeating-radial-gradient(center center, #292929, #323232);
+  background-image: repeating-radial-gradient(center center, #292929, rgba(255,255,255));
   -webkit-background-size: 3px 3px;
   -moz-background-size: 3px 3px;
   background-size: 3px 3px;
@@ -167,6 +160,10 @@ h6 {
   display: inline-block;
   list-style: none;
   margin-right: 10px;
+}
+
+.section-title  {
+  border: solid 2px #145cec;
 }
 
 .top-space {
@@ -283,7 +280,7 @@ resume-skills h4,
 .address-img,
 .contact-div,
 .top-menu {
-  background-color: #323232;
+  background-color: #292929;
 }
 
 .address-div,
@@ -734,10 +731,12 @@ resume-skills h4,
 
 .study-content {
   padding: 30px;
+  height: 120px;
 }
 
 .study-header > p {
-  font-size: 14px;
+  font-size: 18px;
+  color: #145cec;
 }
 
 /*======================================= 8.SECTION : MY STUDIES START ========================================*/
@@ -1055,7 +1054,7 @@ resume-skills h4,
 /*========================================= 13.SECTION : SERVICES START ===================================================*/
 	
 .service-div h3 {
-	font-weight:500;
+	
 }
 
 .service-div > .service-icon-1 { 
@@ -1073,7 +1072,7 @@ resume-skills h4,
 }
 .service-div:hover > .service-icon-1 > .service-icon { 
 	background: #1560BD;
-	border:2px solid #1560BD;
+	border:2px solid #ececec;
 }
 
 .sicon {
@@ -1095,6 +1094,7 @@ resume-skills h4,
 .service-div {	
 	border-radius:5px;
 	padding:35px;
+  height: 19em;
 }
 
 /*========================================= 13.SECTION : SERVICES END ========================================*/
@@ -1125,7 +1125,8 @@ resume-skills h4,
 }
 
 .blog-btn {
-	float:right;
+  padding-top: 2em;
+	text-align: center;
 }
 
 
@@ -1141,6 +1142,17 @@ resume-skills h4,
         transform: scale(0.8);
 }
 
+.row img {
+  height: 250px;
+}
+
+.blog-div p {
+  font-size: 20px;
+}
+
+.blog-div h2 {
+  color: #145cec;
+}
 /*========================================= 14.SECTION : MY POST END ===================================================*/
 
 /*========================================= 15.SECTION : SUBSCRIBE START ===================================================*/
@@ -2453,6 +2465,7 @@ margin-bottom: 15px;
 
 .appbtn {
   display: inline !important;
+  font-size: 12px;
 }
 
 /*.btn {
@@ -2495,3 +2508,14 @@ margin-bottom: 15px;
   &:hover { text-decoration: none; }
   
 } */
+
+.darken {
+  background-image:  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), 
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
