@@ -1143,7 +1143,7 @@ resume-skills h4,
 }
 
 .row img {
-  height: 250px;
+  scale: 1.1;
 }
 
 .blog-div p {
